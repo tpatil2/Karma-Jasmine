@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Tue May 03 2016 12:27:50 GMT-0700 (PDT)
+// Generated on Tue May 03 2016 20:35:45 GMT-0700 (PDT)
 
 module.exports = function(config) {
   config.set({
@@ -15,10 +15,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'node_modules/angular-mocks/angular-mocks.js'
-      'node_modules/angular/angular.js'
-      'app/*.js',
-      'tests/*.js'
+	'lib/angular.min.js',
+  	'lib/angular-mocks.js',
+	'app/*.js',
+      	'test/**/*.js'
     ],
 
 
@@ -58,7 +58,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode

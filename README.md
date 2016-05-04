@@ -69,9 +69,11 @@ NOTE: press tab to see available options and press enter to more next qiestions,
 
 * We may need to download  download the angular and angular mock libraries
   type: 
-[curl -o dir/angular.min.js https://code.angularjs.org/1.4.0-rc.2/angular.min.js]
 
-[curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks.js]
+	[curl -o dir/angular.min.js https://code.angularjs.org/1.4.0-rc.2/angular.min.js]
+
+	[curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks.js]
+	
 * Include above dir in to karma.conf.js
   <pre>
   files: [

@@ -93,7 +93,7 @@ NOTE: press tab to see available options and press enter to more next qiestions,
   
 * Now put your teste caes into tests folder and application into app folder  and run karma
 
-* RUN karma'
+* RUN karma
 
 - type: karma start karma.conf.js
   

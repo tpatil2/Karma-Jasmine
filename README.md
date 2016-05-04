@@ -69,9 +69,9 @@ NOTE: press tab to see available options and press enter to more next qiestions,
 
 * We may need to download  download the angular and angular mock libraries
   type: 
-curl -o dir/angular.min.js https://code.angularjs.org/1.4.0-rc.2/angular.min.js
+[curl -o dir/angular.min.js https://code.angularjs.org/1.4.0-rc.2/angular.min.js]
 
-curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks.js
+[curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks.js]
 * Include above dir in to karma.conf.js
   <pre>
   files: [
@@ -83,6 +83,7 @@ curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks
 
   </pre>
 * Install browser launcher manually (any one)
+
   chrome  - npm install karma-jasmine karma-chrome-launcher --save-dev
   firefox - npm install karma-jasmine karma-firefox-launcher --save-dev
   safari  - npm install karma-jasmine karma-safari-launcher --save-dev
@@ -90,8 +91,9 @@ curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks
   
 * Now put your teste caes into tests folder and application into app folder  and run karma
 
-* RUN karma
-  type: karma start karma.conf.js
+* RUN karma'
+
+- type: karma start karma.conf.js
   
   
   

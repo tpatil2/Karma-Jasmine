@@ -10,28 +10,27 @@ Jasmine - Testing Framework
 
 # Installing Karma/Jasmine enviournment:
 
-*  First step is to install Node.js 
+###  First step is to install Node.js 
 
   Open terminal -> go to working dir
-
-* create package.json
+### create package.json
   type:  echo {} >> package.json  command
 
 (as you install following things then package.json file will update automatically)
 
-* Install Karma Tool:
+### Install Karma Tool:
   type: sudo npm install karma --save-dev
 
-* Install Karma Command Line Interface(Helps to run Karma command globally)
+### Install Karma Command Line Interface(Helps to run Karma command globally)
   Type: npm install -g karma-cli
   
-* Install karma plug-ins to enable us to use the Jasmine test framework and Google Chrome
+### Install karma plug-ins to enable us to use the Jasmine test framework and Google Chrome
   Type: sudo npm install karma-jasmine karma-chrome-launcher --save-dev
   
-* Install Jasmine Core
+### Install Jasmine Core
   type: sudo npm install karma-jasmine jasmine-core --save-dev
   
-* Now at this step we need to create karma config file.
+### Now at this step we need to create karma config file.
   type: karma init
   
   Then it will ask you for configuration :
@@ -67,14 +66,14 @@ Jasmine - Testing Framework
 NOTE: press tab to see available options and press enter to more next qiestions, we can also edit karma.conf.js file later on
 
 
-* We may need to download  download the angular and angular mock libraries
+### We may need to download  download the angular and angular mock libraries
   type: 
 
 	[curl -o dir/angular.min.js https://code.angularjs.org/1.4.0-rc.2/angular.min.js]
 
 	[curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks.js]
 	
-* Include above dir in to karma.conf.js
+### Include above dir in to karma.conf.js
   <pre>
   files: [
 	'lib/angular.min.js',
@@ -84,16 +83,16 @@ NOTE: press tab to see available options and press enter to more next qiestions,
     ],
 
   </pre>
-* Install browser launcher manually (any one)
+### Install browser launcher manually (any one)
 
   chrome  - npm install karma-jasmine karma-chrome-launcher --save-dev
   firefox - npm install karma-jasmine karma-firefox-launcher --save-dev
   safari  - npm install karma-jasmine karma-safari-launcher --save-dev
   phantomJS - npm install --save-dev karma-phantomjs-launcher
   
-* Now put your teste caes into /tests/ folder and application into /app/ folder  and run karma
+### Now put your teste caes into /tests/ folder and application into /app/ folder  and run karma
 
-* RUN karma
+### RUN karma
 
 - type: karma start karma.conf.js
   

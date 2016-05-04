@@ -91,7 +91,7 @@ NOTE: press tab to see available options and press enter to more next qiestions,
   safari  - npm install karma-jasmine karma-safari-launcher --save-dev
   phantomJS - npm install --save-dev karma-phantomjs-launcher
   
-* Now put your teste caes into tests folder and application into app folder  and run karma
+* Now put your teste caes into /tests/ folder and application into /app/ folder  and run karma
 
 * RUN karma
 

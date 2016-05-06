@@ -1,20 +1,18 @@
 # Karma-Jasmine
 This repo includes installation guide for Kama and Jasmine for testing angular application
-
 Getting Started with Karma for Tesing AngularJs
-
 Karma provides realtime tests results while Changing code, But we need to refresh browser everytime when u make changes.
 
 Karma - Test Runner
+
 Jasmine - Testing Framework
 
 # Installing Karma/Jasmine enviournment:
 
-###  First step is to install Node.js 
+###  First step is to install Node.js (Open terminal -> go to working dir)
 
-  Open terminal -> go to working dir
 ### create package.json
-  type:  echo {} >> package.json  command
+  <pre> $ echo {} >> package.json </pre>
 
 (as you install following things then package.json file will update automatically)
 

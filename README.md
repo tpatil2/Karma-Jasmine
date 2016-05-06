@@ -17,47 +17,46 @@ Jasmine - Testing Framework
 (as you install following things then package.json file will update automatically)
 
 ### Install Karma Tool:
-  type: sudo npm install karma --save-dev
+   <pre> $ sudo npm install karma --save-dev  </pre>
 
 ### Install Karma Command Line Interface(Helps to run Karma command globally)
-  Type: npm install -g karma-cli
+   <pre> $ npm install -g karma-cli </pre>
   
 ### Install karma plug-ins to enable us to use the Jasmine test framework and Google Chrome
-  Type: sudo npm install karma-jasmine karma-chrome-launcher --save-dev
+   <pre> $ sudo npm install karma-jasmine karma-chrome-launcher --save-dev  </pre>
   
 ### Install Jasmine Core
-  type: sudo npm install karma-jasmine jasmine-core --save-dev
+   <pre> $ sudo npm install karma-jasmine jasmine-core --save-dev  </pre>
   
 ### Now at this step we need to create karma config file.
-  type: karma init
+   <pre> $ karma init  </pre>
   
-  Then it will ask you for configuration :
-  example: 
-  <pre>
-  Which testing framework do you want to use ?
+#### Then it will ask you for configuration :
+  Example: 
+  
+  <pre>Which testing framework do you want to use ?
   Press tab to list possible options. Enter to move to the next question.
-  select--jasmine
-  Do you want to use Require.js ?
+  select--jasmine </pre>
+   <pre> Do you want to use Require.js ?
   This will add Require.js plugin.
   Press tab to list possible options. Enter to move to the next question.
-  Select---no
-  Do you want to capture any browsers automatically ?
+  Select---no </pre>
+   <pre>Do you want to capture any browsers automatically ?
   Press tab to list possible options. Enter empty string to move to the next question.
-  Select browser-Chrome
-  What is the location of your source and test files ?
+  Select browser-Chrome  </pre>
+   <pre> What is the location of your source and test files ?
   You can use glob patterns, eg. "js/*.js" or "test/**/*Spec.js".
   Enter empty string to move to the next question.
-  --press enter
-  Should any of the files included by the previous patterns be excluded ?
+  --press enter </pre>
+   <pre> Should any of the files included by the previous patterns be excluded ?
   You can use glob patterns, eg. "**/*.swp".
   Enter empty string to move to the next question.
   ----enter path of test files and your code
   03 05 2016 21:47:11.921:WARN [init]: Failed to install "karma-chrome-launcher". No permissions to write in /usr/local/lib!
-  Please install it manually.
-  Do you want Karma to watch all the files and run the tests on change ?
+  Please install it manually. </pre>
+   <pre>Do you want Karma to watch all the files and run the tests on change ?
   Press tab to list possible options.
-  ----select --yes
-  </pre>
+  ----select --yes </pre>
 
  Config file willbe generated 
 

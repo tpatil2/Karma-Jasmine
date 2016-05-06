@@ -91,6 +91,5 @@ NOTE: press tab to see available options and press enter to more next qiestions,
 ### RUN karma
 
 <pre> $ karma start karma.conf.js <pre>
-  
-  
-  
+
+								[Repo - link](https://github.com/tpatil2/Karma-Jasmine.git)

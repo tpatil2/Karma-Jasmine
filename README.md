@@ -1,7 +1,8 @@
 # Karma-Jasmine
-This repo includes installation guide for Kama and Jasmine for testing angular application
-Getting Started with Karma for Tesing AngularJs
-Karma provides realtime tests results while Changing code, But we need to refresh browser everytime when u make changes.
+
+This file includes installation guide for Kama and Jasmine for testing angular application
+Getting Started with Karma for Tesing AngularJs:
+Karma provides realtime tests results while Changing code, But we need to refresh browser everytime when you make changes.
 
 Karma - Test Runner
 
@@ -58,7 +59,7 @@ Jasmine - Testing Framework
   Press tab to list possible options.
   ----select --yes </pre>
 
- Config file willbe generated 
+ Config file will be generated ( karma.cong.js )
 
 NOTE: press tab to see available options and press enter to more next qiestions, we can also edit karma.conf.js file later on
 
@@ -71,27 +72,25 @@ NOTE: press tab to see available options and press enter to more next qiestions,
 	[curl -o dir/angular-mocks.js https://code.angularjs.org/1.4.0-rc.2/angular-mocks.js]
 	
 ### Include above dir in to karma.conf.js
-  <pre>
-  files: [
+  <pre>files: [
 	'lib/angular.min.js',
   	'lib/angular-mocks.js',
 	'app/*.js',
       	'test/**/*.js'
-    ],
-
-  </pre>
+    ],</pre>
+    
 ### Install browser launcher manually (any one)
 
-  chrome  - npm install karma-jasmine karma-chrome-launcher --save-dev
-  firefox - npm install karma-jasmine karma-firefox-launcher --save-dev
-  safari  - npm install karma-jasmine karma-safari-launcher --save-dev
-  phantomJS - npm install --save-dev karma-phantomjs-launcher
+   <pre> $ chrome  - npm install karma-jasmine karma-chrome-launcher --save-dev </pre>
+   <pre> $ firefox - npm install karma-jasmine karma-firefox-launcher --save-dev </pre> 
+   <pre> $ safari  - npm install karma-jasmine karma-safari-launcher --save-dev  </pre>
+   <pre> $ phantomJS - npm install --save-dev karma-phantomjs-launcher </pre>
   
 ### Now put your teste caes into /tests/ folder and application into /app/ folder  and run karma
 
 ### RUN karma
 
-- type: karma start karma.conf.js
+<pre> $ karma start karma.conf.js <pre>
   
   
   

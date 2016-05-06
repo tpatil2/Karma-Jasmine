@@ -92,4 +92,4 @@ NOTE: press tab to see available options and press enter to more next qiestions,
 
 <pre> $ karma start karma.conf.js </pre>
 
-								[Repo - link](https://github.com/tpatil2/Karma-Jasmine.git)
+[Repo - link](https://github.com/tpatil2/Karma-Jasmine.git)
